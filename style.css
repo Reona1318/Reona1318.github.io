@@ -8,8 +8,8 @@ h1 {
   margin: 1.5em 0 1.5em 15px;
   padding: 7px 10px;
   min-width: 120px;
-  max-width: 100%;
-  left: 200px;
+  max-width: 78%;
+  left: 20px;
   color: #1a2673;
   font-size: 16px;
   background: #FFF;
@@ -53,13 +53,14 @@ h1 {
   margin: 1.5em 15px 1.5em 0;
   padding: 7px 10px;
   min-width: 120px;
-  max-width: 100%;
-
+  max-width: 78%;
   color:#ff914d;
   font-size: 16px;
   background: #FFF;
   border: solid 3px #ff914d;
   box-sizing: border-box;
+  float:right;  
+  right:20px; 
 }
 
 .balloon2-right:before {
@@ -126,4 +127,17 @@ strong {
   font-size: 25px;
   font-weight: normal;
   
+}
+
+.index{
+  margin: 16px auto;
+  text-align: center;
+  display: block;
+}
+.index ol {
+  padding-left: 0;
+  display: inline-block;
+}
+.index ol li {
+  text-align: left;
 }
