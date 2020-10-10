@@ -1,20 +1,26 @@
 h1 {
-    color:red;
+    color:#4456FF;
+    font-size: 50px;
+}
+
+h3{
+  color:#4456FF
 }
 
 .balloon2-left {
   position: relative;
   display: inline-block;
-  margin: 1.5em 0 1.5em 15px;
+  margin: 1.5em 15px 1.5em 0;
   padding: 7px 10px;
   min-width: 120px;
   max-width: 78%;
-  left: 20px;
   color: #1a2673;
   font-size: 16px;
   background: #FFF;
   border: solid 3px #1a2673;
   box-sizing: border-box;
+  float:left;
+  left: 20px;
 }
 
 .balloon2-left:before {
@@ -99,7 +105,7 @@ h1 {
 .inner{
   display: inline-block;
   text-align: left;
-  width: 39%;
+  width: 100%;
 }
 
 .point{
@@ -123,7 +129,7 @@ h1 {
 }
 
 strong {
-  color: rgb(0, 168, 247);
+  color: #FF4141;
   font-size: 25px;
   font-weight: normal;
   
@@ -140,4 +146,42 @@ strong {
 }
 .index ol li {
   text-align: left;
+}
+
+video{
+  width:100%;
+  height:75%;
+} 
+
+.main {
+  background: #FFF;
+  margin: 10px 0;
+}
+.side {
+  background: #EEE0F4;
+}
+.gallery{
+  background: #EEE0F4;
+}
+.main,
+.side,
+.gallery {
+  padding: 10%;
+  border-radius: 10px
+}
+
+@media ( min-width : 600px ){
+    .flexbox {
+    display: -webkit-flex;
+    display: flex;
+    }
+  .main {
+    margin: 0 10px;
+    -webkit-flex: 4;
+    flex: 4;
+  }
+  .side {
+    -webkit-flex: 4;
+    flex: 4;
+  }
 }
